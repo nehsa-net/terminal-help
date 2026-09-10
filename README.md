@@ -8,7 +8,7 @@ It runs in **zsh** — macOS, Linux, WSL — and prints exactly one line when a
 shell starts:
 
 ```
-🧰 terminal-help v0.43.0 · get_help
+🧰 terminal-help v0.44.0 · get_help
 ```
 
 Everything host-specific — your servers, your shares, your aliases — lives in
@@ -34,7 +34,7 @@ cd ~/src/terminal-help
 ```
 
 ```
-🧰 terminal-help v0.43.0
+🧰 terminal-help v0.44.0
   Which shells should it be installed for? Pick as many as apply.
 
     1  🍎  macOS       — adds a source line to ~/.zshrc
@@ -314,7 +314,7 @@ the source line and it is read from there instead.
 
 | | |
 |---|---|
-| On every new shell | one line: `🧰 terminal-help v0.43.0 · get_help` |
+| On every new shell | one line: `🧰 terminal-help v0.44.0 · get_help` |
 | Plus | whatever *your* `user_on_load` chooses to print — nothing, by default |
 | Everything else | only when you ask for it by name |
 
@@ -562,28 +562,29 @@ policy, the cmdlets worth knowing from a Unix shell — that you read from zsh.
 `./install.sh` asks which ones you want:
 
 ```
-     1  🐧  linux          Linux — installing zsh, packages, services, ports
-     2  🍺  homebrew       Homebrew — installing, upgrading, and the bits that bite
-     3  🍎  mac            macOS — keys, the default shell, Finder
-     4  🖥  mac_terminal   Terminal.app — tabs, titles, panes, marks, Finder
-     5  🔷  powershell     PowerShell — profile, execution policy, cmdlets, winget
-     6  📐  diagram_viewer diagram-viewer — uv + FastAPI serving Mermaid .mer diagrams
-     7  💬  stonedog_ask   stonedog-ask — ask-gemini / ask-copilot: install, credentials
-     8  🧠  stonedog_mind  stonedog-mind — install, run, the gate, and where packs live
-     9  🧰  terminal_help  terminal-help — the project: clone, install, upgrade
-    10  🤖  claude         Claude Code — CLAUDE.md, settings, and the CLI
-    11  🧑‍✈️  copilot        GitHub Copilot — instructions files, the CLI, chat
-    12  🐳  docker         Docker — images, containers, logs, exec, cleaning up
-    13  🌿  git            git — everyday commands, branches, worktrees, PRs
-    14  🐘  pgbouncer      pgBouncer — pool modes, auth, and the admin console
-    15  🎭  playwright     Playwright — browsers, codegen, traces
-    16  🟢  playwright_node        Playwright for Node — @playwright/test
-    17  🐍  playwright_python      Playwright for Python — install, codegen
-    18  🧪  playwright_python_pytest  pytest-playwright — running, fixtures
-    19  🔺  prisma         Prisma — migrations, drift, generate, studio
-    20  🧪  pytest         pytest — a subset, fixtures, green-over-nothing
-    21  🐍  python         Python — uv, virtualenvs, uvicorn
-    22  🪟  windows        Windows — winget, WSL, and getting zsh onto the machine
+     1  🎸  django         Django — startproject with uv, manage.py, migrations, pytest-django
+     2  🐧  linux          Linux — installing zsh, packages, services, ports
+     3  🍺  homebrew       Homebrew — installing, upgrading, and the bits that bite
+     4  🍎  mac            macOS — keys, the default shell, Finder
+     5  🖥  mac_terminal   Terminal.app — tabs, titles, panes, marks, Finder
+     6  🔷  powershell     PowerShell — profile, execution policy, cmdlets, winget
+     7  📐  diagram_viewer diagram-viewer — uv + FastAPI serving Mermaid .mer diagrams
+     8  💬  stonedog_ask   stonedog-ask — ask-gemini / ask-copilot: install, credentials
+     9  🧠  stonedog_mind  stonedog-mind — install, run, the gate, and where packs live
+    10  🧰  terminal_help  terminal-help — the project: clone, install, upgrade
+    11  🤖  claude         Claude Code — CLAUDE.md, settings, and the CLI
+    12  🧑‍✈️  copilot        GitHub Copilot — instructions files, the CLI, chat
+    13  🐳  docker         Docker — images, containers, logs, exec, cleaning up
+    14  🌿  git            git — everyday commands, branches, worktrees, PRs
+    15  🐘  pgbouncer      pgBouncer — pool modes, auth, and the admin console
+    16  🎭  playwright     Playwright — browsers, codegen, traces
+    17  🟢  playwright_node        Playwright for Node — @playwright/test
+    18  🐍  playwright_python      Playwright for Python — install, codegen
+    19  🧪  playwright_python_pytest  pytest-playwright — running, fixtures
+    20  🔺  prisma         Prisma — migrations, drift, generate, studio
+    21  🧪  pytest         pytest — a subset, fixtures, green-over-nothing
+    22  🐍  python         Python — uv, virtualenvs, uvicorn
+    23  🪟  windows        Windows — winget, WSL, and getting zsh onto the machine
 
   Numbers (comma or space separated), "a" for all [linux git python pytest]:
 ```
